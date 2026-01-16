@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NO:wght@100..400&family=Playwrite+US+Trad+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NO:wght@100..400&family=Playwrite+US+Trad+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: bisque;
+    padding-block:139px;
+}
+h1{
+      font-family: "Playwrite NO", cursive;
+}
+.hero{
+   margin-top: 30px;
+   width: 350px;
+   font-size: 15px;
+}
+.sp{
+    color: orangered;
+}
+.b1{
+    padding-inline: 15px;
+    padding-block: 9px;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+}
+.img{
+    height: 206px;
+    width: 273px;
+    transform: rotate(4deg);
+}
+.image{
+    height: 206px;
+    width: 273px;
+}
+@media(max-width:700px){
+.hero-section{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+}
+.About-us-section{
+    background-color: antiquewhite;
+    padding-block: 139px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 30px;
+}
+.about{
+   margin-top: 30px;
+   width: 350px;
+   font-size: 15px;
+   margin: 38px;
+}
+.b2{
+padding-block: 12px;
+padding-inline: 13px;
+border-radius: 20px;
+background-color: orangered;
+color: white;
+margin-top: 20px;
+}
+.about p{
+    margin-top: 15px;
+}
+.sp2{
+    color: orangered;
+}
+@media(max-width:700px){
+    .About-us-section{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.navbar{
+    display: flex;
+    justify-content:space-between ;
+    padding: 13px;
+    background-color: blanchedalmond;
+    /* position: fixed; */
+    border-style: groove;
+    width: 100%;
+    padding-inline: 30px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-top: 10px;
+}
+h2{
+ font-family: "Permanent Marker", cursive;
+}
