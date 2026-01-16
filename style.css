@@ -39,7 +39,7 @@ h1{
     height: 206px;
     width: 273px;
 }
-@media(max-width:700px){
+@media(max-width:600px){
 .hero-section{
     flex-direction: column-reverse;
     align-items: center;
