@@ -97,7 +97,7 @@ h2{
     align-items: center;
 }
 }
-@media(max-width: 300px){
+@media screen and (max-width: 300px){
   ul{
     gap: 8px;
     margin-top: 22px;
