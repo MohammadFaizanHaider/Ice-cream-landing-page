@@ -39,12 +39,6 @@ h1{
     height: 206px;
     width: 273px;
 }
-@media(max-width:600px){
-.hero-section{
-    flex-direction: column-reverse;
-    align-items: center;
-}
-}
 .About-us-section{
     background-color: antiquewhite;
     padding-block: 139px;
@@ -73,18 +67,11 @@ margin-top: 20px;
 .sp2{
     color: orangered;
 }
-@media(max-width:700px){
-    .About-us-section{
-        flex-direction: column;
-        align-items: center;
-    }
-}
 .navbar{
     display: flex;
     justify-content:space-between ;
     padding: 13px;
     background-color: blanchedalmond;
-    /* position: fixed; */
     border-style: groove;
     width: 100%;
     padding-inline: 30px;
@@ -97,4 +84,56 @@ ul{
 }
 h2{
  font-family: "Permanent Marker", cursive;
+}
+@media(max-width:700px){
+.About-us-section{
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media(max-width:600px){
+.hero-section{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+}
+@media(max-width: 300px){
+  ul{
+    gap: 8px;
+    margin-top: 22px;
+  }
+  .navbar{
+    width: 114vw;
+    padding-inline: 20px;
+  }
+  h2{
+    font-size: 18px;
+  }
+  .hero-section{
+    width: 114vw;
+  }
+  .About-us-section{
+    width: 114vw;
+  }
+  .img{
+    height: 191px;
+    width: 249px;
+    transform: rotate(5deg);
+  }
+  .hero{
+    width: 309px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+  }
+  .about{
+    width: 333px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+  }
 }
