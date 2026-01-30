@@ -99,21 +99,14 @@ h2{
 }
 @media(max-width: 400px){
   ul{
-    gap: 8px;
-    margin-top: 22px;
+    gap: 16px;
+    margin-top: 35px;
   }
   .navbar{
-    width: 342px;
     padding-inline: 20px;
   }
   h2{
-    font-size: 18px;
-  }
-  .hero-section{
-    width: 342px;
-  }
-  .About-us-section{
-    width: 342px;
+    font-size: 30px;
   }
   .img{
     height: 191px;
